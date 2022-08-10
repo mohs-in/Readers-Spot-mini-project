@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+
+    <style>
+        button{
+            background: beige;
+        }
+        form{
+            padding: 10px;
+            
+            margin: 10px;
+            background: biege;
+        
+        }
+        input:focus{
+            background-color: yellow;
+            opacity: 0.4;
+        }
+        button{
+            width: 70px;
+            background-color: orange;
+            font-style: normal;
+            font-weight: bold;
+            opacity: 0.7;
+        }
+        
+    </style>
+</head>
+<body style="background-color: beige;"><center>
+    <img src="readersspot.jpeg" alt="Reader's Spot" width="60px" height="60px">
+    <h1>Reader's Spot</h1>
+    <form action="post" >
+        <u><h2>Payment Page</h2></u>
+        <div class="card-details">
+            <p>Pay using Credit or Debit card</p>
+            <br><br>
+            <div class="card-number">
+              <label> Card Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+              <input
+                type="text"
+                class="card-number-field"
+                placeholder="###-###-###"/>
+            </div>
+            <br />
+            <div class="date-number">
+              <label> Expiry Date: &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+              <input type="text" class="date-number-field" 
+                     placeholder="DD-MM-YY" />
+            </div>
+            <br>
+            <div class="cvv-number">
+              <label> CVV number: &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+              <input type="password" class="cvv-number-field" 
+                     placeholder="xxx" />
+            </div>
+            <br>
+            <div class="nameholder-number">
+              <label> Card Holder name:&nbsp; </label>
+              <input
+                type="text"
+                class="card-name-field"
+                placeholder="Enter your Name"/>
+            </div>
+            <br>
+            <button type="submit" 
+                    class="submit-now-btn">
+              Submit
+            </button>
+          </div>
+          <br>
+        
+    </form></center>
+    
+</body>
+</html>
